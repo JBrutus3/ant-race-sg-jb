@@ -16,7 +16,7 @@ To run the code challenge solution on your own computer:
 
 ### Prerequisites
 
-Make sure you have yarn installed(https://yarnpkg.com/lang/en/docs/install/#mac-stable)
+Make sure you have yarn installed(https://yarnpkg.com/lang/en/docs/install/#mac-stable) or npm
 
 ## Running the tests
 
