@@ -11,6 +11,7 @@ body {
     font-family: Helvetica, Arial, sans-serif;
     font-size: $m-size;
     line-height: 1.6;
+    margin: 0;
 }
 
 button {
@@ -19,6 +20,25 @@ button {
 
 button:disabled {
     cursor: default;
+}
+
+.content-container {
+    margin: 0 auto;
+    padding: 0 $m-size;
+    max-width: 80rem;
+}
+
+
+.show-mobile {
+    @media (min-width: $desktop-breakpoint) {
+        display: none;
+    }
+}
+
+.show-desktop {
+    @media (max-width: $desktop-breakpoint - .01rem) {
+        display: none;
+    }
 }
 
 .is-active {

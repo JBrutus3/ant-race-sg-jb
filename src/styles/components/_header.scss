@@ -1,0 +1,17 @@
+.header {
+    background: $navy-blue;
+    margin-bottom: $l-size;
+}
+
+.header__content {
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    padding: $s-size 0;
+}
+
+.header-title {
+    color: white;
+    text-decoration: none;
+    margin: 0;
+}
