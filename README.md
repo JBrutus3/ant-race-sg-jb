@@ -10,8 +10,8 @@ OR
 
 To run the code challenge solution on your own computer:
 * Clone this repository
-* `yarn`
-* `yarn start`
+* `npm install`
+* `npm start`
 * Visit http://localhost:3000/
 
 ### Prerequisites
